@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T09:06:33.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="yO2-Zk2XAy9KJ7ShsF73" version="15.1.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-09-30T09:46:47.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="7UiCpsCiNa6LtkKPcM-j" version="15.1.1" type="github" pages="12">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Recherche Profil sur mot clé">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -468,6 +468,77 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Il-fHSGQWn9rBUtdlyXn-16" value="Affiche le nouveau dossier &#xa;et y met le candidat en cours" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.176;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Il-fHSGQWn9rBUtdlyXn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345.76" y="320.20000000000005" as="sourcePoint" />
+            <mxPoint x="174" y="320" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Supprimer un dossier" id="ll5vQZOdEfQOXw5CSp4e">
+    <mxGraphModel dx="593" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-0" />
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-1" parent="FfRWIktCQ0txH0Xn4wc5-0" />
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-2" value="Recruteur" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry x="120" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-2">
+          <mxGeometry x="45" y="70" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-4" value="Je Recrute" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry x="300" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-4">
+          <mxGeometry x="45" y="80" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-6" value="Clique sur la suppression&#xa;du dossier" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="FfRWIktCQ0txH0Xn4wc5-1" source="FfRWIktCQ0txH0Xn4wc5-3" target="FfRWIktCQ0txH0Xn4wc5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry x="110" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry x="540" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-9" value="Demande la suppression&lt;br&gt;du dossier" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.067;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.938;exitY=0.187;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354.38" y="257.4" as="sourcePoint" />
+            <mxPoint x="540.6699999999998" y="257.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-10" value="Confirme la demande" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.124;exitY=0.429;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.967;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354.66999999999996" y="300.20000000000005" as="targetPoint" />
+            <mxPoint x="538.76" y="300.06000000000006" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-11" value="SI Pôle emploi" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry x="495" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="FfRWIktCQ0txH0Xn4wc5-11">
+          <mxGeometry x="45" y="100" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-13" value="Demande la confirmation" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.176;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="346.76" y="204.20000000000005" as="sourcePoint" />
+            <mxPoint x="175" y="204" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-14" value="Confirme" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="243.00000000000023" as="sourcePoint" />
+            <mxPoint x="345" y="243.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfRWIktCQ0txH0Xn4wc5-15" value="Le dossier n&#39;apparait plus &#xa;dans la liste" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.176;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FfRWIktCQ0txH0Xn4wc5-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="345.76" y="320.20000000000005" as="sourcePoint" />
             <mxPoint x="174" y="320" as="targetPoint" />
